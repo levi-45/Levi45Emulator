@@ -1,0 +1,20 @@
+<emulators>
+    <emulator>
+        <name>Example Emulator 1</name>
+        <description>This is an example emulator package</description>
+        <package_url>https://github.com/levi-45/Levi45Emulator/main/emulators/example1.ipk</package_url>
+        <package_type>ipk</package_type>
+    </emulator>
+    <emulator>
+        <name>Example Emulator 2</name>
+        <description>Another example emulator package</description>
+        <package_url>https://github.com/levi-45/Levi45Emulator/main/emulators/example2.deb</package_url>
+        <package_type>deb</package_type>
+    </emulator>
+    <emulator>
+        <name>Example Emulator 3</name>
+        <description>Tar.gz example package</description>
+        <package_url>https://github.com/levi-45/Levi45Emulator/main/emulators/example3.tar.gz</package_url>
+        <package_type>tar.gz</package_type>
+    </emulator>
+</emulators>
