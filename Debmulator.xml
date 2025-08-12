@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+<!-- #########All_Oscam_Icam_Cam########### -->
+	<plugins cont="All Oscam Icam deb">
+    <plugin name="Oscam-emu-levi45_11886-802_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/All/enigma2-plugin-softcams-oscam-emu-levi45_11886-802_all.deb</url>
+    </plugin>
+    <plugin name="Oscam-emu-levi45_11885-802_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/All/enigma2-plugin-softcams-oscam-emu-levi45_11885-802_all.deb</url>
+    </plugin>
+    <plugin name="Oscam-emu-Youchie_11886-802_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/All/enigma2-plugin-softcams-oscam-osdreambox-11886-emu-r802-all.deb</url>
+    </plugin>
+    <plugin name="Oscam-emu-Youchie_11884-802_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/All/enigma2-plugin-softcams-oscam-osdreambox-11884-emu-r802-all.deb</url>
+    </plugin>
+    <plugin name="Oscam-emu-kitte888_11884-802_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/All/enigma2-plugin-softcams-oscam-emu-all-kitte888_11884-802.deb</url>
+    </plugin>
+ </plugins>
+ <!-- #########All_NCam########### -->
+	<plugins cont="All Ncam deb">
+    <plugin name="Ncam_15.0_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/All/enigma2-plugin-softcams-ncam_15.0_all.deb</url>
+    </plugin>
+    <plugin name="Ncam_Raed-15.4_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/All/enigma2-plugin-softcams-ncam-osdreambox_V15.4-r0.deb</url>
+    </plugin>
+    <plugin name="Ncam_Raed-15.4-r1_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/All/enigma2-plugin-softcams-ncam-osdreambox_V15.4-r1.deb</url>
+    </plugin>
+ </plugins>
+  <!-- #########All_CCCam########### -->
+	<plugins cont="All CCcam deb">
+    <plugin name="CCcam_2.3.9-r0-Raed_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/All/enigma2-softcams-cccam-all-images_2.3.9-r0-RAED_OE2.0_all.deb</url>
+    </plugin>
+ </plugins>
+<!-- #########Arm_Cam########### -->
+	<plugins cont="Arm Cam deb">
+    <plugin name="Cccam-arm_2.3.9_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Arm/enigma2-plugin-cams-cccam-arm_2.3.9_all.deb</url>
+		</plugin>
+    <plugin name="Gcam-arm_2.1_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Arm/enigma2-plugin-cams-gcam-arm_2.1_all.deb</url>
+		</plugin>
+    <plugin name="Mgcamd-arm_1.45_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Arm/enigma2-plugin-cams-mgcamd-arm_1.45_all.deb</url>
+    </plugin>
+    <plugin name="Multics-arm_8.2_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Arm/enigma2-plugin-cams-multics-arm_8.2_all.deb</url>
+    </plugin>
+    <plugin name="Ncam-arm_13.8_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Arm/enigma2-plugin-cams-ncam-arm_13.8_all.deb</url>
+		</plugin>
+    <plugin name="Oscam-arm_11.718-r798_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Arm/enigma2-plugin-cams-oscam-arm_11.718-r798_all.deb</url>
+    </plugin>
+    <plugin name="Oscam-emu-arm_11.718-r798_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Arm/enigma2-plugin-cams-oscam-emu-arm_11.718-r798_all.deb</url>
+		</plugin>
+    <plugin name="Oscam-modern-arm_15.21_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Arm/enigma2-plugin-cams-oscam-modern-arm_15.21_all.deb</url>
+    </plugin>
+    <plugin name="Oscamymod-arm_1859_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Arm/enigma2-plugin-cams-oscamymod-arm_1859_all.deb</url>
+		</plugin>
+    <plugin name="Oscam-icam-arm-py_2.7-11727_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Arm/enigma2-plugin-extensions-oscam-icam-arm-py_2.7-11727_all.deb</url>
+		</plugin>
+    <plugin name="Oscam-icam-arm-py_3.9-11727_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Arm/enigma2-plugin-extensions-oscam-icam-arm-py_3.9-11727_all.deb</url>
+		</plugin>
+    <plugin name="Oscam-icam-arm-py_3.10-11727_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Arm/enigma2-plugin-extensions-oscam-icam-arm-py_3.10-11727_all.deb</url>
+    </plugin>
+ </plugins>
+ <!-- #########Arm64_Cam########### -->
+	<plugins cont="Arm64 Cam deb">
+		<plugin name="Cccam-aarch_64-2.3.9_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Arm64/enigma2-plugin-cams-cccam-aarch_64-2.3.9_all.deb</url>
+		</plugin>
+    <plugin name="Ncam-aarch64_13.8_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Arm64/enigma2-plugin-cams-ncam-aarch64_13.8_all.deb</url>
+		</plugin>
+    <plugin name="Oscam-icam-aarch64-py_2.7-11727_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Arm64/enigma2-plugin-extensions-oscam-icam-arm64-py_2.7-11727_all.deb</url>
+		</plugin>
+    <plugin name="Oscam-icam-aarch64-py_3.9-11727_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Arm64/enigma2-plugin-extensions-oscam-icam-arm64-py_3.9-11727_all.deb</url>
+		</plugin>
+    <plugin name="Oscam-icam-aarch64-py_3.10-11727_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Arm64/enigma2-plugin-extensions-oscam-icam-arm64-py_3.10-11727_all.deb</url>
+    </plugin>
+ </plugins>
+<!-- #########Mips_Cam########### -->
+	<plugins cont="Mips Cam deb">
+		<plugin name="Cccam-mips_2.3.9_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Mips/enigma2-plugin-cams-cccam-mips_2.3.9_all.deb</url>
+		</plugin>
+    <plugin name="Doscam-mips_0.25_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Mips/enigma2-plugin-cams-doscam-mips_0.25_all.deb</url>
+		</plugin>
+    <plugin name="Gcam-mips_2.1_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Mips/enigma2-plugin-cams-gcam-mips_2.1_all.deb</url>
+		</plugin>
+    <plugin name="Mgcamd-mips_1.45_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Mips/enigma2-plugin-cams-mgcamd-mips_1.45_all.deb</url>
+    </plugin>
+    <plugin name="Multics-mips_8.2_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Mips/enigma2-plugin-cams-multics-mips_8.2_all.deb</url>
+    </plugin>
+    <plugin name="Ncam-mips_13.8_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Mips/enigma2-plugin-cams-ncam-mips_13.8_all.deb</url>
+		</plugin>
+    <plugin name="Oscam-emu-mips_11.718-r798_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Mips/enigma2-plugin-cams-oscam-emu-mips_11.718-r798_all.deb</url>
+    </plugin>
+    <plugin name="Oscam-emu-smargo-mips_11.391_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Mips/enigma2-plugin-cams-oscam-emu-smargo-mips_11.391_all.deb</url>
+		</plugin>
+    <plugin name="Oscam-mips_11.715_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Mips/enigma2-plugin-cams-oscam-mips_11.715_all.deb</url>
+		</plugin>
+    <plugin name="Oscam-modern-mips_11.452_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Mips/enigma2-plugin-cams-oscam-modern-mips_11.452_all.deb</url>
+    </plugin>
+    <plugin name="Oscam-icam-mips-py_2.7-11727_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Mips/enigma2-plugin-extensions-oscam-icam-mips-py_2.7-11727_all.deb</url>
+    </plugin>
+    <plugin name="Oscam-icam-mips-py_3.9-11727_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Mips/enigma2-plugin-extensions-oscam-icam-mips-py_3.9-11727_all.deb</url>
+		</plugin>
+    <plugin name="Oscam-icam-mips-py_3.10-11727_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Mips/enigma2-plugin-extensions-oscam-icam-mips-py_3.10-11727_all.deb</url>
+    </plugin>
+    <plugin name="Scam-mips_0.25_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Mips/enigma2-plugin-cams-scam-mips_0.25_all.deb</url>
+		</plugin>
+    <plugin name="Unicam-mips_3.1.0_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Mips/enigma2-plugin-cams-unicam-mips_3.1.0_all.deb</url>
+		</plugin>
+    <plugin name="Vicam-mips_2.1_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/Mips/enigma2-plugin-cams-vicam-mips_2.1_all.deb</url>
+    </plugin>
+ </plugins>
+</xml>
