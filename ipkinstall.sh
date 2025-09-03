@@ -4,7 +4,7 @@
 #### "***********************************************"
 # Download fresh copy
 echo "Downloading OscamEmu..."
-wget -q --no-check-certificate "https://raw.githubusercontent.com/levi-45/Levi45Emulator/main/*.ipk" -O /tmp/OscamEmu.ipk
+wget -q --no-check-certificate "https://raw.githubusercontent.com/levi-45/Levi45Emulator/main/enigma2-plugin-softcams-oscam-emu-levi45_11886-803_all.ipk" -O /tmp/OscamEmu.ipk
 
 # Force install (ignore version checks)
 echo "Installing..."
