@@ -5,7 +5,7 @@
 
 GIT_BASE_URL="https://raw.githubusercontent.com/levi-45/Levi45Emulator/main"
 
-# Detect OS type using package manager status
+# Detect OS type
 if [ -f /var/lib/dpkg/status ]; then
     PACKAGE_EXT="deb"
     INSTALL_CMD="dpkg -i --force-overwrite"
@@ -34,7 +34,6 @@ if [ -f "/tmp/$PACKAGE_NAME" ]; then
     echo "Please Restart GUI..."
 else
     echo "Error: Failed to download package: $PACKAGE_NAME"
-    echo "Please check if the file exists on GitHub:"
-    echo "$GIT_BASE_URL/$PACKAGE_NAME"
+    echo "Please check if the file exists on GitHub"
     exit 1
 fi
