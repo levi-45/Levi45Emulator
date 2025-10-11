@@ -10,31 +10,43 @@ if [ -f /var/lib/dpkg/status ]; then
     PACKAGE_EXT="deb"
     INSTALL_CMD="dpkg -i --force-overwrite"
     OSTYPE="DreamOS"
-    PACKAGE_PATTERN="enigma2-plugin-softcams-oscam-emu-levi45_*_all.deb"
 else
     PACKAGE_EXT="ipk"  
     INSTALL_CMD="opkg install --force-reinstall --force-overwrite"
     OSTYPE="Enigma2"
-    PACKAGE_PATTERN="enigma2-plugin-softcams-oscam-emu-levi45_*_all.ipk"
 fi
 
 echo "Detected OS: $OSTYPE"
-echo "Searching for package..."
 
-# Download using wildcard pattern (GitHub serves the actual file if pattern matches one file)
-echo "Downloading latest package..."
-wget -q --no-check-certificate "$GIT_BASE_URL/$PACKAGE_PATTERN" -O "/tmp/oscam-latest.${PACKAGE_EXT}"
+# Get directory listing and find the matching package
+echo "Searching for latest package..."
 
-if [ -f "/tmp/oscam-latest.${PACKAGE_EXT}" ]; then
-    echo "Installing latest package..."
-    $INSTALL_CMD "/tmp/oscam-latest.${PACKAGE_EXT}"
+# Get raw directory listing from GitHub
+PACKAGE_LIST=$(wget -q -O - --no-check-certificate "https://api.github.com/repos/levi-45/Levi45Emulator/contents/" | grep -o '"name": *"[^"]*'"$PACKAGE_EXT"'"' | cut -d'"' -f4)
+
+# Find the oscam package for our architecture
+PACKAGE_NAME=$(echo "$PACKAGE_LIST" | grep "enigma2-plugin-softcams-oscam-emu-levi45.*_all.${PACKAGE_EXT}" | head -n 1)
+
+if [ -n "$PACKAGE_NAME" ]; then
+    echo "Found package: $PACKAGE_NAME"
+    echo "Downloading..."
+    wget -q --no-check-certificate "$GIT_BASE_URL/$PACKAGE_NAME" -O "/tmp/$PACKAGE_NAME"
     
-    # Cleanup
-    rm -f "/tmp/oscam-latest.${PACKAGE_EXT}"
-    echo "Installation completed successfully!"
-    echo "Please Restart GUI..."
+    if [ -f "/tmp/$PACKAGE_NAME" ]; then
+        echo "Installing..."
+        $INSTALL_CMD "/tmp/$PACKAGE_NAME"
+        
+        # Cleanup
+        rm -f "/tmp/$PACKAGE_NAME"
+        echo "Installation completed successfully!"
+        echo "Please Restart GUI..."
+    else
+        echo "Error: Failed to download package!"
+        exit 1
+    fi
 else
-    echo "Error: No package found matching pattern: $PACKAGE_PATTERN"
-    echo "Please check if package exists on GitHub"
+    echo "Error: No package found for $OSTYPE"
+    echo "Available files:"
+    echo "$PACKAGE_LIST"
     exit 1
 fi
