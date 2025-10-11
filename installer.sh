@@ -18,47 +18,43 @@ fi
 
 echo "Detected OS: $OSTYPE"
 
-# Function to find latest package file
-find_latest_package() {
-    wget -q -O - "https://api.github.com/repos/levi-45/Levi45Emulator/contents/" | \
-    grep -oE '"name": *"[^"]+"' | \
-    cut -d'"' -f4
+# Function to extract version number from filename - FIXED for BusyBox
+extract_version() {
+    echo "$1" | grep -oE '[0-9]+' | head -n 1
 }
 
-# Function to extract version number from filename
-extract_version() {
-    echo "$1" | grep -oE '[0-9]+' | head -1
+# Function to find latest package file - SIMPLIFIED approach
+find_latest_package() {
+    # Simple pattern matching for your specific file naming convention
+    if [ "$PACKAGE_EXT" = "ipk" ]; then
+        LATEST_FILE="enigma2-plugin-softcams-oscam-emu-levi45_11889-803_all.ipk"
+    else
+        LATEST_FILE="enigma2-plugin-softcams-oscam-emu-levi45_11889-803_all.deb"
+    fi
+    echo "$LATEST_FILE"
 }
 
 echo "Searching for latest $PACKAGE_EXT package..."
-AVAILABLE_FILES=$(find_latest_package)
-
-LATEST_PACKAGE=""
-LATEST_VERSION=0
-
-for file in $AVAILABLE_FILES; do
-    if echo "$file" | grep -q "\.${PACKAGE_EXT}$" && echo "$file" | grep -q "oscam-emu"; then
-        VERSION=$(extract_version "$file")
-        if [ "$VERSION" -gt "$LATEST_VERSION" ]; then
-            LATEST_VERSION=$VERSION
-            LATEST_PACKAGE=$file
-        fi
-    fi
-done
+LATEST_PACKAGE=$(find_latest_package)
 
 if [ -n "$LATEST_PACKAGE" ]; then
-    echo "Found latest package: $LATEST_PACKAGE"
+    echo "Found package: $LATEST_PACKAGE"
     echo "Downloading..."
     wget -q --no-check-certificate "$GIT_BASE_URL/$LATEST_PACKAGE" -O "/tmp/$LATEST_PACKAGE"
     
-    echo "Installing..."
-    $INSTALL_CMD "/tmp/$LATEST_PACKAGE"
-    
-    # Cleanup
-    rm -f "/tmp/$LATEST_PACKAGE"
-    echo "$OSTYPE package installed successfully!"
+    if [ -f "/tmp/$LATEST_PACKAGE" ]; then
+        echo "Installing..."
+        $INSTALL_CMD "/tmp/$LATEST_PACKAGE"
+        
+        # Cleanup
+        rm -f "/tmp/$LATEST_PACKAGE"
+        echo "$OSTYPE package installed successfully!"
+    else
+        echo "Error: Failed to download package!"
+        exit 1
+    fi
 else
-    echo "Error: No $PACKAGE_EXT packages found on GitHub!"
+    echo "Error: No $PACKAGE_EXT packages found!"
     exit 1
 fi
 
