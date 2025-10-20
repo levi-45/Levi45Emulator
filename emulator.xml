@@ -2,8 +2,8 @@
 <xml>
 <!-- #########All_Oscam_Icam_Cam########### -->
 	<plugins cont="Oscam Icam For All Arm/Mips Py2/Py3 ipk">
-    <plugin name="Oscam-emu-levi45_11899-803_all.ipk">
-			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_ipk/All/enigma2-plugin-softcams-oscam-emu-levi45_11899-803_all.ipk</url>
+    <plugin name="Oscam-emu-levi45_11901-803_all.ipk">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_ipk/All/enigma2-plugin-softcams-oscam-emu-levi45_11901-803_all.ipk</url>
     </plugin>
     <plugin name="Oscam-emu-levi45_11900-803_all.ipk">
 			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_ipk/All/enigma2-plugin-softcams-oscam-emu-levi45_11900-803_all.ipk</url>
