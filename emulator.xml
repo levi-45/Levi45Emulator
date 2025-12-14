@@ -2,17 +2,11 @@
 <xml>
 <!-- #########All_Oscam_Icam_Cam########### -->
 	<plugins cont="Oscam Icam For All Arm/Mips Py2/Py3 ipk">
-    <plugin name="Oscam-emu-levi45_11905-803_all.ipk">
-			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_ipk/All/enigma2-plugin-softcams-oscam-emu-levi45_11905-803_all.ipk</url>
-    </plugin>
-    <plugin name="Oscam-emu-levi45_11906-803_all.ipk">
-			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_ipk/All/enigma2-plugin-softcams-oscam-emu-levi45_11906-803_all.ipk</url>
+    <plugin name="Oscam-emu-levi45_11907-803_all.ipk">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_ipk/All/enigma2-plugin-softcams-oscam-emu-levi45_11907-803_all.ipk</url>
     </plugin>
     <plugin name="Oscam-emu-Youchie_11886-802_all.ipk">
 			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_ipk/All/enigma2-plugin-softcams-oscam_11886-emu-r802_all.ipk</url>
-    </plugin>
-    <plugin name="Oscam-emu-Youchie_11884-802_all.ipk">
-			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_ipk/All/enigma2-plugin-softcams-oscam_11884-emu-r802_all.ipk</url>
     </plugin>
     <plugin name="Oscam-emu-Kitte888_V.9.1_all.ipk">
 			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_ipk/All/enigma2-plugin-softcams-oscamicamall_V.9.1.Update-no-Kitte888_all.ipk</url>
@@ -23,8 +17,8 @@
     <plugin name="Ncam_15.0_all.ipk">
 			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_ipk/All/enigma2-plugin-softcams-ncam_15.0_all.ipk</url>
     </plugin>
-    <plugin name="Ncam_Raed-V15.5-r0_all.ipk">
-			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_ipk/All/enigma2-plugin-softcams-ncam_V15.5-r0_all.ipk</url>
+    <plugin name="Ncam_Raed-V15.6-r0_all.ipk">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_ipk/All/enigma2-plugin-softcams-ncam_V15.6-r0_all.ipk</url>
     </plugin>
  </plugins>
 <!-- #########All_CCcam########### -->

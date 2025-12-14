@@ -2,17 +2,11 @@
 <xml>
 <!-- #########All_Oscam_Icam_Cam########### -->
 	<plugins cont="All Oscam Icam deb">
-    <plugin name="Oscam-emu-levi45_11905-803_all.deb">
-			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/All/enigma2-plugin-softcams-oscam-emu-levi45_11905-803_all.deb</url>
-    </plugin>
-    <plugin name="Oscam-emu-levi45_11906-803_all.deb">
-			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/All/enigma2-plugin-softcams-oscam-emu-levi45_11906-803_all.deb</url>
+    <plugin name="Oscam-emu-levi45_11907-803_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/All/enigma2-plugin-softcams-oscam-emu-levi45_11907-803_all.deb</url>
     </plugin>
     <plugin name="Oscam-emu-Youchie_11886-802_all.deb">
 			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/All/enigma2-plugin-softcams-oscam-osdreambox-11886-emu-r802-all.deb</url>
-    </plugin>
-    <plugin name="Oscam-emu-Youchie_11884-802_all.deb">
-			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/All/enigma2-plugin-softcams-oscam-osdreambox-11884-emu-r802-all.deb</url>
     </plugin>
     <plugin name="Oscam-emu-kitte888_11884-802_all.deb">
 			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/All/enigma2-plugin-softcams-oscam-emu-all-kitte888_11884-802.deb</url>
@@ -23,8 +17,8 @@
     <plugin name="Ncam_15.0_all.deb">
 			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/All/enigma2-plugin-softcams-ncam_15.0_all.deb</url>
     </plugin>
-    <plugin name="Ncam_Raed-15.5-r0_all.deb">
-			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/All/enigma2-plugin-softcams-ncam-osdreambox_V15.5-r0.deb</url>
+    <plugin name="Ncam_Raed-15.6-r0_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/All/enigma2-plugin-softcams-ncam-osdreambox_V15.6-r0.deb</url>
     </plugin>
  </plugins>
   <!-- #########All_CCCam########### -->
