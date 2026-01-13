@@ -2,8 +2,8 @@
 <xml>
 <!-- #########All_Oscam_Icam_Cam########### -->
 	<plugins cont="All Oscam Icam deb">
-    <plugin name="Oscam-emu-levi45_11922-803_all.deb">
-			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/All/enigma2-plugin-softcams-oscam-emu-levi45_11922-803_all.deb</url>
+    <plugin name="Oscam-emu-levi45_11925-803_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/All/enigma2-plugin-softcams-oscam-emu-levi45_11925-803_all.deb</url>
     </plugin>
     <plugin name="Oscam-emu-Youchie_11886-802_all.deb">
 			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/All/enigma2-plugin-softcams-oscam-osdreambox-11886-emu-r802-all.deb</url>
