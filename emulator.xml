@@ -17,8 +17,8 @@
     <plugin name="Ncam_15.0_all.ipk">
 			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_ipk/All/enigma2-plugin-softcams-ncam_15.0_all.ipk</url>
     </plugin>
-    <plugin name="Ncam_Raed-V15.6-r0_all.ipk">
-			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_ipk/All/enigma2-plugin-softcams-ncam_V15.6-r0_all.ipk</url>
+    <plugin name="Ncam_Raed-V15.7-r0_all.ipk">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_ipk/All/enigma2-plugin-softcams-ncam_V15.7-r0_all.ipk</url>
     </plugin>
  </plugins>
 <!-- #########All_CCcam########### -->

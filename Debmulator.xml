@@ -17,8 +17,8 @@
     <plugin name="Ncam_15.0_all.deb">
 			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/All/enigma2-plugin-softcams-ncam_15.0_all.deb</url>
     </plugin>
-    <plugin name="Ncam_Raed-15.6-r0_all.deb">
-			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/All/enigma2-plugin-softcams-ncam-osdreambox_V15.6-r0.deb</url>
+    <plugin name="Ncam_Raed-15.7-r0_all.deb">
+			<url>https://raw.githubusercontent.com/levi-45/Multicam/main/Cams_deb/All/enigma2-plugin-softcams-ncam-osdreambox_V15.7-r0.deb</url>
     </plugin>
  </plugins>
   <!-- #########All_CCCam########### -->
